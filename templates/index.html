@@ -7,16 +7,16 @@
 </head>
 <body style="background-color: black; justify-content: center;">
 
-  <div style="display: flex; justify-content: center; margin: 50px;">
-    <div style="background-color: white; width: 80vw; display: flex; justify-content: center;">
+  <div style="display: flex; justify-content: center; margin: 20px;">
+    <div style="background-color: white; width: 90vw; display: flex; justify-content: center;">
       <div style="width: 100%; height: 100%; margin-top: 50px;">
         <div style="text-align: center;">
-          <h1 style="color: red;">Used Car Price Prediction</h1>
-          <h1 style="color: blue;">Know the Price of Used Car before you want to buy</h1>
+          <h2 style="color: red;">Used Car Price Prediction</h2>
+          <h3 style="color: blue;">Know the Price of Used Car before you want to buy</h3>
         </div>
 
         <form action="/predict" method="post">
-          <div style="display:flex; width: 70vw; gap:40px; flex-wrap: wrap; margin: 20px; margin-left: 50px;"> 
+          <div style="display:flex; width: 80vw; gap:40px; flex-wrap: wrap; margin: 20px;"> 
 
             <!-- Car Name -->
             <div>
@@ -76,7 +76,7 @@
         </form>
 
         <div style="text-align: center;">
-          <h2>Predicted Price: <span id="prediction">{{ prediction }}</span></h2>
+          <h3>Predicted Price: <span id="prediction">{{ prediction }}</span></h3>
         </div>
 
       </div>
