@@ -4,10 +4,10 @@ from flask import Flask, render_template, request
 import pickle
 
 app = Flask(__name__)
-data = pd.read_csv('cars_cleaned_data_new.csv')
+data = pd.read_csv('Projects/cars_cleaned_data_new.csv')
 
 # Load model and preprocessing steps
-model = pickle.load(open('LinearRegressor.pkl', 'rb'))
+model = pickle.load(open('Projects/LinearRegressor.pkl', 'rb'))
 
 
 @app.route('/')
