@@ -1,0 +1,10 @@
+Overview-
+  This project aims to predict the prices of second-hand cars using various machine learning techniques.
+  By analyzing a dataset of car features and historical prices, the model provides accurate price predictions based on input specifications.
+
+Features
+  Data Preprocessing: Handling missing values, encoding categorical features, and feature scaling.
+  Exploratory Data Analysis (EDA): Visualizations and insights to understand the dataset.
+  Modeling: Implementing and comparing different machine learning algorithms.
+  Evaluation: Using metrics like R-squared, MAE, and RMSE to evaluate model performance.
+  Deployment: A Flask web app deployed using GitHub on Render to make predictions accessible.
